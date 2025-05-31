@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8"/>
+<title>加工処理</title>
+<style>
+  /* CSSはそのまま */
+</style>
+</head>
+<body>
+
+<h1>加工処理</h1>
+
+<input type="file" id="imageInput" accept="image/*"/>
+<br/><br/>
+<button id="binarizeButton">白黒</button>
+<button id="embossButton">エンボス</button>
+<button id="embossColorButton">カラーエンボス</button>
+<button id="blurButton">ぼかし</button>
+<button id="sepiaButton">セピア</button>
+<button id="resetButton">元に戻す</button>
+<br/><br/>
+<canvas id="canvas"></canvas>
+
+<!-- ここで main.js をモジュールとして読み込む -->
+<script type="module" src="./main.js"></script>
+
+</body>
+</html>
